@@ -1,0 +1,12 @@
+pragma solidity >=0.5.0 <0.6.0;
+
+contract osama {
+
+    uint x = 6;
+    uint y = 4;
+    uint z = 6 * 4;
+
+function multiply() public view returns (uint) {
+  return z;
+}
+}
